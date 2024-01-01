@@ -1,0 +1,34 @@
+body{
+    background:linear-gradient(to left,#FF90BC,#8ACDD7,#7ED7C1,#C5E898);
+}
+h1{
+    color:#1640D6;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    font-family:cursive;
+}
+#middle{
+    color:white;
+    font-family:fantasy;
+}
+#result{
+    color:darkblue;
+    font-size:100px;
+}
+@media screen {
+    img{
+        margin-left: auto; /* Center the image horizontally */
+        margin-right: auto; /* Center the image horizontally */
+        display: block; /* Ensure the image is treated as a block element */
+    }
+    .form{
+        margin-left: auto; 
+        margin-right: auto;
+        display: flex;  
+    }
+}
+input{
+    border-radius:5px;
+    height:25px;
+}
